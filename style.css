@@ -18,7 +18,7 @@ a, p, div.img{
 .first-section {
     display: flex;
     flex-direction: column;
-    padding: 0 13rem 8rem 13rem;
+    padding: 0 16rem 11rem 16rem;
     background-color: #1f2937;
 
 }
@@ -36,7 +36,7 @@ a, p, div.img{
 
 .logo {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .header ul.menu {
@@ -47,7 +47,7 @@ a, p, div.img{
 
 .first-section > .container {
     display: flex;
-    margin-top: 6rem;
+    margin-top: 9rem;
     gap: 2rem;
 }
 
