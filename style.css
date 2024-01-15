@@ -1,0 +1,40 @@
+html {
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+a, p, div.img{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    background-color: #1f2937;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, h1 {
+    color: #F9FAF8
+}
+
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+div.img {
+    background-color: #939393;
+}
