@@ -121,7 +121,7 @@ div.img {
 
 .third-section {
     background-color: #E5E7EB;
-    padding: 11rem 35rem;
+    padding: 11rem 20%;
 }
 
 .third-section p {
@@ -139,7 +139,7 @@ div.img {
 }
 
 .fourth-section {
-    padding: 8rem 16rem;
+    padding: 8rem 16%;
 }
 
 .fourth-section .container {
@@ -149,6 +149,7 @@ div.img {
     padding: 4rem 10rem;
     border-radius: 0.8rem;
     align-items: center;
+    gap: 2rem;
 }
 
 .fourth-section h2 {
@@ -169,6 +170,16 @@ div.img {
     border-radius: 0.6rem;
     color: #F9FAF8;
     font-size: 1.8rem;
+    font-weight: bold;
 }
 
+footer {
+    background-color: #1f2937;
+    min-height: 10rem;
+    color: #F9FAF8;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
