@@ -1,21 +1,24 @@
 html {
-    font-family:'Times New Roman', Times, serif;
+    font-size: 62.5%;
+
+    font-family: Arial, "Times New Roman", Times, serif;
 }
 
 body {
-    font-size: 62.5%;
 }
 
 a, p, div.img{
     color: #E5E7EB;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 
 .first-section {
     display: flex;
     flex-direction: column;
-    padding: 2rem 6rem;
+    padding: 0 13rem 8rem 13rem;
     background-color: #1f2937;
 
 }
@@ -23,18 +26,58 @@ a, p, div.img{
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .logo, h1 {
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
 
-.header ul {
+.header ul.menu {
     display: flex;
     list-style-type: none;
+    gap: 1.4rem;
 }
+
+.first-section > .container {
+    display: flex;
+    margin-top: 6rem;
+    gap: 2rem;
+}
+
+.first-section .container > * {
+    flex: 1;
+}
+
+.header-content h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.header-content > button {
+    padding: 0.4rem 2.4rem;
+    border-radius: 0.6rem;
+    background-color: #3882F6;
+    border-style: none;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 
 div.img {
     background-color: #939393;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
