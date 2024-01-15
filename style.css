@@ -137,3 +137,38 @@ div.img {
     text-align: end;
     padding: 1rem 1rem 0 0;
 }
+
+.fourth-section {
+    padding: 8rem 16rem;
+}
+
+.fourth-section .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 4rem 10rem;
+    border-radius: 0.8rem;
+    align-items: center;
+}
+
+.fourth-section h2 {
+    font-size: 2.4rem;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.fourth-section p {
+    color: #dadada;
+    font-size: 1.8rem;
+}
+
+.fourth-section .sign-up {
+    background-color: #3882F6;
+    border: 0.2rem solid #F9FAF8;
+    padding: 0.5rem 3rem;
+    border-radius: 0.6rem;
+    color: #F9FAF8;
+    font-size: 1.8rem;
+}
+
+
