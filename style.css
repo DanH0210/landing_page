@@ -5,11 +5,14 @@ html {
 }
 
 body {
+    margin: 0;
+    min-width: 93.5rem;
 }
 
 a, p, div.img{
-    color: #E5E7EB;
+    color: #b5b5b5;
     text-decoration: none;
+    font-size: 1.8rem;
     margin: 0;
     padding: 0;
 }
@@ -35,14 +38,13 @@ a, p, div.img{
 }
 
 .logo {
-    font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
 }
 
 .header ul.menu {
     display: flex;
     list-style-type: none;
-    gap: 1.4rem;
+    gap: 2rem;
 }
 
 .first-section > .container {
@@ -56,12 +58,12 @@ a, p, div.img{
 }
 
 .header-content h1 {
-    font-size: 4rem;
+    font-size: 4.8rem;
+    font-weight: 900;
     margin: 0;
 }
 
 .header-content p {
-    font-size: 1.3rem;
     margin-bottom: 1rem;
 }
 
@@ -76,7 +78,7 @@ a, p, div.img{
 
 
 div.img {
-    background-color: #939393;
+    background-color: #646c76;
     display: flex;
     justify-content: center;
     align-items: center;
